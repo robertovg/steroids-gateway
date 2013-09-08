@@ -1,0 +1,20 @@
+ ✔ Make test for sesion faking last.fm @done (13-04-09 18:42)
+ ✔ Fix sesSion.js @done (13-04-09 18:42)
+ ✔ Use jqdeferred with mw/token @done (13-04-09 18:43)
+ ✔ If last.fm response fails, remove the user document from DB @done (13-04-19 19:26)
+ ✔ Validate getSession status through uuid @done (13-04-10 15:27)
+ ✔ put format=json to all last.fm request to work only with json @done (13-04-11 18:35)
+ ✔ Use body to send parameters instead of url @done (13-04-12 20:38)
+ ✔ Make updateNowPlaying with http://www.last.fm/api/show/track.updateNowPlaying @done (13-04-25 18:19)
+ ✔ Make scrobbler with http://www.last.fm/api/show/track.scrobble @done (13-04-29 20:23)
+ ✔ Change token/put?uuid=asdf&token=qwer to token/put/asdf?token=qwer @done (13-04-17 17:02)
+ ☐ session/:uuid check if the app is still authenticated
+ ☐ updateNow and scrobble/:uuid check if the app is still authenticated, now we get a Server Error if not login
+ ☐ Remove old tokens created
+ ✔ Change 'auth.getSession' calls to superagent @done (13-04-29 21:46)
+ ☐ Create a bulk scrobbler method
+ ✔ Encodign problems with signature @done (13-06-04 19:27)
+ ✔ Create frontpage and session save pages @done (13-06-07 19:06)
+ ✔ Start using MongoLab instead of default MongoDB 1.8 appfog service ( https://docs.appfog.com/add-ons/mongolab ) @done (13-05-29 18:02)
+ ☐ Love tracks http://www.last.fm/api/show/track.love
+ ✔ Make api secret variable value @done (13-06-06 18:31)

@@ -1,0 +1,30 @@
+{
+  "name": "steroids-gateway",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app",
+    "test": "node ./node_modules/mocha/bin/mocha --recursive -r ./test/_helper",
+    "devw": ".\\node_modules\\.bin\\node-dev.cmd app",
+    "devu": "./node_modules/node-dev/node-dev app"
+  },
+  "dependencies": {
+    "express": "3.0.3",
+    "jade": "*",
+    "node-uuid": "~1.4.0",
+    "mongoose": "~3.6.0",
+    "async": "~0.2.6",
+    "underscore": "~1.4.4",
+    "querystring": "~0.2.0",
+    "JQDeferred": "~1.9.1",
+    "superagent": "~0.14.1"
+  },
+  "devDependencies": {
+    "node-dev": "~0.2.9",
+    "mocha": "~1.8.2",
+    "supertest": "~0.5.1",
+    "rewire": "~1.1.2",
+    "sinon": "~1.6.0",
+    "nock": "~0.17.2"
+  }
+}
