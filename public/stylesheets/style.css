@@ -13,8 +13,12 @@ div#headerSection {
 	margin: auto;
 }
 
-div#headerSection img, div#headerSection p {
+div#headerSection img{
 	float: left;
+}
+div#headerSection p{
+	float: left;
+	clear: both;
 }
 div#headerSection h1 {
 	float: left;
