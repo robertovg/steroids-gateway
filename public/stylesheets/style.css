@@ -6,3 +6,19 @@ body {
 a {
   color: #00B7FF;
 }
+
+div#headerSection {
+	height: 128px;
+	width: 940px;
+	margin: auto;
+}
+
+div#headerSection img, div#headerSection p {
+	float: left;
+}
+div#headerSection h1 {
+	float: left;
+	padding-left: 35px;
+	padding-top: 80px;
+
+}
