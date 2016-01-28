@@ -13,7 +13,7 @@ var express = require('express'),
   mongodbConnection = '';
 
 app.configure(function(){
-  app.set('port', process.env.VCAP_APP_PORT || 3000);
+  app.set('port', process.env.OPENSHIFT_NODEJS_PORT || 3000);
   app.set('views', __dirname + '/views');
   app.set('view engine', 'jade');
   app.set('LF_API_KEY', process.env.LF_API_KEY || 'abc');

@@ -32,11 +32,11 @@ module.exports = function(app) {
 
 	};
 	this.getApiKey = function() {
-		return app.get('LF_API_KEY');
+		return app.get('10b508301c48be78f06b0107faa66c4c');
 	};
 	//Use md5(string+secret)
 	this.signMD5 = function(stringToSign) {
-		var md5 = crypto.createHash('md5').update(stringToSign + app.get('LF_SECRET')).digest("hex");
+		var md5 = crypto.createHash('md5').update(stringToSign + app.get('a9e495425849de52518c138a7a2aff9a')).digest("hex");
 		return md5;
 	};
 	this.generateQuerystring = function(objToSend) {
